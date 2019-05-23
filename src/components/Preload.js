@@ -11,7 +11,9 @@ const Preload = (props) => {
       {items.map((item, i) => (
         <audio
           src={item.sound}
+          autoPlay={true}
           preload="auto"
+          muted={true}
         />
       ))}
     </React.Fragment>
