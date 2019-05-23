@@ -1,0 +1,14 @@
+{
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "ek-soundboard-production-20190523103951-authRole",
+            "UnauthRoleArn": "arn:aws:iam::690524749915:role/ek-soundboard-production-20190523103951-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::690524749915:role/ek-soundboard-production-20190523103951-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "ek-soundboard-production-20190523103951-deployment",
+            "UnauthRoleName": "ek-soundboard-production-20190523103951-unauthRole",
+            "StackName": "ek-soundboard-production-20190523103951",
+            "StackId": "arn:aws:cloudformation:eu-west-2:690524749915:stack/ek-soundboard-production-20190523103951/b5be4220-7d3e-11e9-a6dd-0234cd8b818c"
+        }
+    }
+}
