@@ -11,8 +11,7 @@ const styles = theme => ({
     flexGrow: 1,
   },
   container: {
-    backgroundColor: '#000',
-    padding: theme.spacing.unit,
+    backgroundColor: '#000'
   }
 });
 
@@ -51,7 +50,7 @@ class App extends React.Component {
         <Grid
           className={classes.container}
           container
-          spacing={8}
+          spacing={0}
         >
           {items.map((item, i) => (
             <Photo
