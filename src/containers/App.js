@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import items from '../items';
 import Grid from '@material-ui/core/Grid';
 import Photo from '../components/Photo';
+import Preload from '../components/Preload';
 
 const styles = theme => ({
   root: {
@@ -46,19 +47,24 @@ class App extends React.Component {
     } = this.props;
 
     return (
-      <Grid
-        className={classes.container}
-        container
-        spacing={8}
-      >
-        {items.map((item, i) => (
-          <Photo
-            key={i}
-            item={item}
-            onClick={this.playSound}
-          />
-        ))}
-      </Grid>
+      <React.Fragment>
+        <Grid
+          className={classes.container}
+          container
+          spacing={8}
+        >
+          {items.map((item, i) => (
+            <Photo
+              key={i}
+              item={item}
+              onClick={this.playSound}
+            />
+          ))}
+        </Grid>
+        <Preload
+          items={items}
+        />
+      </React.Fragment>
     );
   }
 };
