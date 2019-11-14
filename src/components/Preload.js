@@ -13,7 +13,7 @@ const Preload = (props) => {
           key={i}
           src={item.sound}
           autoPlay={true}
-          preload="auto"
+          preload="true"
           muted={true}
         />
       ))}
