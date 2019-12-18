@@ -32,7 +32,7 @@ export default [
     sound: '/sound/10.mp3'
   },
   {
-    image: '/img/4.png',
+    image: '/img/9.png',
     sound: '/sound/7.mp3'
   },
   {
